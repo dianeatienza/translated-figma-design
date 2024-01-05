@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation Section */
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 67px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.logo {
+    color: #003363;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px; /* 100% */
+    padding: 23px 0px 20px 90px;
+}
+
+nav {
+    color: #004E84;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    padding: 21px 90px 22px 0;
+}
+
+nav ul {
+    margin-left: 800px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.my-works {
+    padding: 0 54px;
+}
+
+/* Landing Page Section */
+
+main {
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+    background-color: #0022419C;
+    background: linear-gradient(rgba(0, 34, 65, 0.61), rgba(0, 34, 65, 0.61)), url('/figma-to-code/images/hero-page.png');
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+main h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84px;
+    width: 50%;
+    align-items: center;
+}
+ main h1 span{
+    width: 50%;
+ }
+
+.main-button {
+     margin-top: 100px;
+}
+main button {
+    display: block;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background: #12C6FF;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+/* About Me Section */
+
+.about-me {
+    width: 100%;
+    height: 100vh;
+    background-color: #003363;
+    display: flex;
+}
+
+.john-doe-img, .john-doe-text {
+    margin: auto;
+}
+
+.john-doe-text {
+    width: 50%;
+    margin-left: 0;
+
+}
+
+.john-doe-text h3 {
+    color: #12C6FF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+    padding-bottom: 10px;
+}
+
+.john-doe-text p {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 10px 0;
+}
+
+/* My Works Section */
+
+.my-works-gallery {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.my-works-gallery div {
+    margin: auto;
+}
+
+
+/* Contact Section */
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #003363;
+    display: flex;
+}
+
+/* Contact Section - Left Side (Socmed) */
+
+.contact-socmed {
+    color: #fff;
+    width: 50%;
+    background: linear-gradient(rgba(0, 34, 65, 0.61), rgba(0, 34, 65, 0.61)), url('/figma-to-code/images/building.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.socmed-text {
+    padding: 40px;
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.socmed-icon li {
+    display: inline;
+    padding: 0 20px;
+}
+
+.socmed-icon ul {
+    align-items: center;
+    display: flex;
+}
+
+/* Contact Section - Right Side (Form) */
+
+.contact-form {
+    width: 50%;
+    background-color: #003363;
+    color: #fff;
+    margin: auto;
+    padding-left: 140px;
+}
+
+.contact-form h3 {
+    color: #12C6FF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+
+.contact-form p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    width: 75%;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.form-label {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.form-label h4 {
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+.input-box {
+    border: 1px solid #12C6FF;
+    height: 72px;
+    width: 500px;
+}
+.form-label input::placeholder {
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 20px;
+    color: #000;
+  }
+  
+.message-box {
+    height: 150px;
+    width: 500px;
+    border: 1px solid #12C6FF;
+}
+
+.contact button {
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: #12C6FF;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 60%;
+}
+
+
+/* Footer Section */
+footer {
+    height: 48px;
+    width: 100%;
+    display: flex;
+}
+
+footer p {
+    color: #003363;
+    font-size: 13px;
+    line-height: 24px;
+    margin: auto;
+}
